@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Specifically normalize HTML and CSS files with LF line endings
+*.html text eol=lf
+*.css  text eol=lf
